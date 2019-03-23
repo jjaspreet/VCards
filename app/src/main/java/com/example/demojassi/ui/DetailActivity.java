@@ -9,7 +9,7 @@ import com.example.demojassi.R;
 import com.example.demojassi.model.User;
 
 public class DetailActivity extends AppCompatActivity {
-    TextView textview1, textview2, textview3, textview4, textview5, textview6;
+    private TextView textview1, textview2, textview3, textview4, textview5, textview6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
