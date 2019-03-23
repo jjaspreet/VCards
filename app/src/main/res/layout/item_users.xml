@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#fafafa"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:src="@drawable/round_man"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:paddingLeft="8dp"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#09c6df"
+            android:textSize="22sp"
+            android:text="jhbdjnbcxz" />
+        <TextView
+            android:id="@+id/companyTextView"
+            android:textColor="#09c6df"
+            android:paddingLeft="8dp"
+            android:textStyle="bold"
+            android:layout_width = "match_parent"
+            android:layout_height="wrap_content"
+            android:text="djBCJZXNbhch"/>
+        <View
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#09c6df"/>
+</LinearLayout>
+
+</LinearLayout>
